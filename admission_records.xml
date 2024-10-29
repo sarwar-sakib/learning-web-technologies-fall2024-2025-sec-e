@@ -1,0 +1,36 @@
+<admission_records>
+    <record sl="23">
+        <name>
+            <first_name> John </first_name>
+            <last_name> Carter </last_name>
+        </name>
+        <admissions_date>
+            <dd> 25 </dd>
+            <mm> 12 </mm>
+            <yyyy> 2015 </yyyy>
+        </admissions_date>
+    </record>
+    <record sl="29">
+        <name>
+            <first_name> Bob </first_name>
+            <last_name> Marshal </last_name>
+        </name>
+        <admissions_date>
+            <dd> 13 </dd>
+            <mm> 01 </mm>
+            <yyyy> 1999 </yyyy>
+        </admissions_date>
+    </record>
+
+    <record sl="29">
+        <name>
+            <first_name> Clark </first_name>
+            <last_name> Kent </last_name>
+        </name>
+        <admissions_date>
+            <dd> 17 </dd>
+            <mm> 06 </mm>
+            <yyyy> 2005 </yyyy>
+        </admissions_date>
+    </record>
+</admission_records>
