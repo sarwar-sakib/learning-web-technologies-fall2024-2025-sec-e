@@ -7,13 +7,13 @@ if($_SESSION['status'] == true){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Registration Page</title>
+    <title>User Profile</title>
 </head>
 <body>
     <html>
     <head>
         <title>
-            Registration Form
+            User Profile 
         </title>
         <body>
                 <table align="center">
@@ -21,13 +21,10 @@ if($_SESSION['status'] == true){
                         <td>
                             <form action="regcheck.php" method="post">
                             <fieldset>
-                                <legend><b>Registration</b></legend>
-                                <table>
+                                <legend><b>User Profile</b></legend>
+                    <table>
                     <tr>
-                    <td colspan="2" align="center"><h3>User Profile</h3></td>
-                    </tr>
-                    <tr>
-                    <td width="90">Name</td>
+                    <td>Name</td>
                     <td colspan="1">
                         : <?php echo $_SESSION["username"] ?> 
                     </td>
