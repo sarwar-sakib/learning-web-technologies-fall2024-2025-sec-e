@@ -2,7 +2,7 @@
 require_once("../model/authorModel.php");  // Use the correct model for authors
 
 $user_name = $_REQUEST['user_name'];
-$author_name = $_REQUEST['author_name'];  // Changed from emp_name to author_name
+$author_name = $_REQUEST['author_name'];  
 $contact_no = $_REQUEST['contact_no'];
 $password = $_REQUEST['password'];
 
